@@ -1,6 +1,6 @@
 import * as RN from 'react-native';
 
-declare module 'react-native-size-matters' {
+declare module '@rekosistem/react-native-size-matters' {
     export function scale(size: number): number;
     export function verticalScale(size: number): number;
     export function moderateScale(size: number, factor?: number): number;
